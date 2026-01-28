@@ -9,3 +9,6 @@ def ft_count_harvest_recursive():
             print("Harvest time!")
 
     recursion(1)
+
+# defining a function inside another to grab the input
+# without being re-prompted

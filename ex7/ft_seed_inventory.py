@@ -7,3 +7,7 @@ def ft_seed_inventory(seed_type: str, quantity: int, unit: str) -> None:
         print(f'{seed_type} seeds: covers {quantity} square meters')
     else:
         print('Unknown unit type')
+
+# type hints are just there to specify the data type of the parameters
+# they have no role in the compilation
+# ex: seed_type: str
